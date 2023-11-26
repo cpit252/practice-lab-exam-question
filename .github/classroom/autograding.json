@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Lab-Exam-Practice-Question",
+      "setup": "",
+      "run": "mvn test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 100
+    }
+  ]
+}

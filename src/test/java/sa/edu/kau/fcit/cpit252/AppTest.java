@@ -16,8 +16,8 @@ public class AppTest
 
     @Test
     public void shouldHaveSingleThreadPool() {
-        MyThreadPool myThreadPool1 = new MyThreadPool();
-        MyThreadPool myThreadPool2 = new MyThreadPool();
+        MyThreadPool myThreadPool1 = MyThreadPool.getInstance();
+        MyThreadPool myThreadPool2 = MyThreadPool.getInstance();
         assertEquals(myThreadPool1, myThreadPool2);
     }
     @Test
